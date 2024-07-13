@@ -171,12 +171,13 @@ nav {
 }
 
 .container .catalog {
-  top: 25%;
+  top: 50%;
   left: 0;
   transform: translate(0, -50%) rotate(-90deg);
   padding: calc(1rem - 4px) calc(2rem - 4px);
   background-color: transparent;
   color: var(--text-dark);
+  border: 1px solid var(--text-dark);
 }
 
 .container h5 {
@@ -197,22 +198,22 @@ nav {
 
 .feature-1 {
   color: var(--text-dark);
-  transform: translate(calc(-50% - 300px), calc(-50% - 200x));
+  transform: translate(calc(-50% - 300px), calc(-50% - 200px));
 }
 
 .feature-2 {
   color: var(--white);
-  transform: translate(calc(-50% + 300px), calc(-50% - 200x));
+  transform: translate(calc(-50% + 300px), calc(-50% - 200px));
 }
 
 .feature-3 {
   color: var(--text-dark);
-  transform: translate(calc(-50% - 300px), calc(-50% + 200x));
+  transform: translate(calc(-50% - 300px), calc(-50% + 200px));
 }
 
 .feature-4 {
   color: var(--white);
-  transform: translate(calc(-50% + 300px), calc(-50% + 200x));
+  transform: translate(calc(-50% + 300px), calc(-50% + 200px));
 }
 
 .feature-1::after,
@@ -225,7 +226,7 @@ nav {
 .feature-2::after,
 .feature-4::after {
   left: 0;
-  transform: translate(calc(100% - 40px), -50%);
+  transform: translate(calc(-100% - 40px), -50%);
   background-color: var(--white);
 }
 
